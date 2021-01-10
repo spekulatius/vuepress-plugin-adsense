@@ -1,0 +1,42 @@
+{
+  "name": "vuepress-plugin-adsense",
+  "version": "0.0.2",
+  "description": "Google AdSense Plugin for VuePress",
+  "main": "index.js",
+  "scripts": {
+    "publish": "git push origin --tags && git push origin",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spekulatius/vuepress-plugin-adsense.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "plugin",
+    "vuepress-plugin",
+    "adsense",
+    "monetization"
+  ],
+  "author": {
+    "name": "Peter Thaleikis",
+    "url": "https://www.releasecandidate.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/spekulatius/vuepress-plugin-adsense",
+  "bugs": {
+    "url": "https://github.com/spekulatius/vuepress-plugin-adsense/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "inject.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
